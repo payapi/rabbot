@@ -1,5 +1,4 @@
 ## NOTE
-
 Forked from https://github.com/arobson/rabbot solely to make dependency upgrades.
 
 # rabbot
