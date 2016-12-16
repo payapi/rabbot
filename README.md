@@ -6,7 +6,7 @@ Forked from https://github.com/arobson/rabbot solely to make dependency upgrades
 [![Version npm](https://img.shields.io/npm/v/payapi-rabbot.svg?style=flat)](https://www.npmjs.com/package/payapi-rabbot)
 [![npm Downloads](https://img.shields.io/npm/dm/payapi-rabbot.svg?style=flat)](https://www.npmjs.com/package/payapi-rabbot)
 [![Dependencies](https://david-dm.org/payapi/rabbot/status.svg)](https://david-dm.org/payapi/rabbot)
-[![Known Vulnerabilities](https://snyk.io/test/npm/payapi-rabbot/1.0.7-build3/badge.svg)](https://snyk.io/test/npm/payapi-rabbot/1.0.7-build3)
+[![Known Vulnerabilities](https://snyk.io/test/npm/payapi-rabbot/1.0.7-build4/badge.svg)](https://snyk.io/test/npm/payapi-rabbot/1.0.7-build4)
 
 This is a very opinionated abstraction over amqplib to help simplify the implementation of several messaging patterns on RabbitMQ.
 
