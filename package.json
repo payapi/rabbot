@@ -1,9 +1,9 @@
 {
-  "name": "rabbot",
-  "version": "1.0.6",
-  "description": "Abstractions to simplify working with the RabbitMQ",
+  "name": "payapi-rabbot",
+  "version": "1.0.7-build0",
+  "description": "Abstractions to simplify working with the RabbitMQ. Forked from https://github.com/arobson/rabbot solely to make dependency upgrades.",
   "main": "src/index.js",
-  "repository": "https://github.com/arobson/rabbot",
+  "repository": "https://github.com/payapi/rabbot",
   "scripts": {
     "lint": "jshint ./",
     "test": "gulp test",
@@ -13,76 +13,12 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
-  "author": "Alex Robson",
+  "author": "payapi.io",
   "contributors": [
     {
-      "name": "Alex Robson",
-      "email": "asrobson@gmail.com",
-      "url": "http://github.com/arobson"
-    },
-    {
-      "name": "Derick Bailey",
-      "url": "http://derickbailey.com/"
-    },
-    {
-      "name": "Randy Groff",
-      "url": "http://randygroff.com"
-    },
-    {
-      "name": "Joseph Frazier",
-      "url": "https://github.com/josephfrazier"
-    },
-    {
-      "name": "Mario Kozjak",
-      "url": "https://github.com/mkozjak"
-    },
-    {
-      "name": "Doug Neiner",
-      "url": "http://code.dougneiner.com"
-    },
-    {
-      "name": "Brian Edgerton",
-      "url": "https://github.com/brianedgerton"
-    },
-    {
-      "name": "Ryan Niemeyer",
-      "url": "http://knockmeout.net"
-    },
-    {
-      "name": "Jim Cowart",
-      "url": "http://github.com/ifandelse"
-    },
-    {
-      "name": "Sean Corrales",
-      "url": "https://github.com/droidenator"
-    },
-    {
-      "name": "Matthew Martin",
-      "url": "http://matmar10.com"
-    },
-    {
-      "name": "Scott Walters",
-      "url": "http://github.com/LeankitScott"
-    },
-    {
-      "name": "Eric Satterwhite",
-      "url": "http://codedependant.net/"
-    },
-    {
-      "name": "Leonardo Bispo de Oliveira",
-      "url": "http://blog.bispooliveira.de"
-    },
-    {
-      "name": "Michael Tuttle",
-      "url": "https://github.com/openam"
-    },
-    {
-      "name": "John Mathis",
-      "url": "http://github.com/JohnDMathis"
-    },
-    {
-      "name": "Austin Young",
-      "url": "http://github.com/LeankitAustin"
+      "name": "Marko Haapala",
+      "email": "marko@payapi.io",
+      "url": "https://es.linkedin.com/in/markohaapala"
     }
   ],
   "license": "MIT",
@@ -103,6 +39,6 @@
     "node-uuid": "^1.4.7",
     "postal": "^2.0.4",
     "when": "^3.7.7",
-    "whistlepunk": "^0.3.2"
+    "payapi-whistlepunk": "^0.3.3"
   }
 }

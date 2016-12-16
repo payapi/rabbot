@@ -1,9 +1,12 @@
+## NOTE
+
+Forked from https://github.com/arobson/rabbot solely to make dependency upgrades.
+
 # rabbot
 
-[![Build Status](http://67.205.142.228/api/badges/arobson/rabbot/status.svg)](http://67.205.142.228/arobson/rabbot)
-[![Version npm](https://img.shields.io/npm/v/rabbot.svg?style=flat)](https://www.npmjs.com/package/rabbot)
-[![npm Downloads](https://img.shields.io/npm/dm/rabbot.svg?style=flat)](https://www.npmjs.com/package/rabbot)
-[![Dependencies](https://img.shields.io/david/arobson/rabbot.svg?style=flat)](https://david-dm.org/arobson/rabbot)
+[![Version npm](https://img.shields.io/npm/v/payapi-rabbot.svg?style=flat)](https://www.npmjs.com/package/payapi-rabbot)
+[![npm Downloads](https://img.shields.io/npm/dm/payapi-rabbot.svg?style=flat)](https://www.npmjs.com/package/payapi-rabbot)
+[![Dependencies](https://img.shields.io/david/payapi/rabbot.svg?style=flat)](https://david-dm.org/payapi/rabbot)
 
 This is a very opinionated abstraction over amqplib to help simplify the implementation of several messaging patterns on RabbitMQ.
 
