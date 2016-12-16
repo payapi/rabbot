@@ -575,7 +575,7 @@ This example shows most of the available options described above as well as logg
 
 To establish a connection with all settings in place and ready to go call configure:
 ```javascript
-	var rabbit = require( "rabbot" );
+	var rabbit = require( "payapi-rabbot" );
 
 	rabbit.configure( settings ).done( function() {
 		// ready to go!
@@ -598,7 +598,7 @@ After an `unhandled` event is raised by rabbot, not further attempts to connect 
 
 ```js
 // How to create a zombie
-var rabbit = require( "rabbot" );
+var rabbit = require( "payapi-rabbot" );
 
 rabbit.on( "unreachable", function() {
   rabbit.retry();

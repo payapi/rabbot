@@ -1,3 +1,3 @@
-var log = require( "whistlepunk" ).log;
+var log = require( "payapi-whistlepunk" ).log;
 log( {} );
 module.exports = log;
